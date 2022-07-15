@@ -1,0 +1,6 @@
+[submodule "lib/michelson-parser"]
+	path = lib/michelson-parser
+	url = https://github.com/berkaycagir/michelson-parser
+[submodule "lib/nearley"]
+	path = lib/nearley
+	url = https://github.com/kach/nearley

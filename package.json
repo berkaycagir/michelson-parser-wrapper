@@ -1,0 +1,37 @@
+{
+  "name": "michelson-parser-wrapper",
+  "version": "1.0.0",
+  "description": "Simple script which reads a Michelson program from stdin and prints out the Micheline equivalent to stdout",
+  "main": "bin/michelson-parser.js",
+  "bin": {
+    "michelson-parser": "bin/michelson-parser.js",
+    "michelson-parser-wrapper": "bin/michelson-parser.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkaycagir/michelson-parser-wrapper"
+  },
+  "keywords": [
+    "michelson",
+    "tezos",
+    "micheline"
+  ],
+  "author": {
+    "name": "Hasan Berkay Cagir",
+    "email": "berkay@cagir.com.tr"
+  },
+  "bugs": {
+    "url": "https://github.com/berkaycagir/michelson-parser-wrapper/issues"
+  },
+  "homepage": "https://github.com/berkaycagir/michelson-parser-wrapper#readme",
+  "dependencies": {
+    "moo": "^0.5.1",
+    "process": "^0.11.10"
+  }
+}
