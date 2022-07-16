@@ -20,7 +20,7 @@ var parser = new nearley.Parser(grammar);
 
 var writeResults = function (writeStream, parser) {
   writeStream.write(
-    require("util").inspect(parser.results, {
+    require("util").inspect(JSON.stringify(parser.results), {
       depth: null,
       maxArrayLength: null,
       maxStringLength: null,
