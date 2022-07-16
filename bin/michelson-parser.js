@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
-var nearley = require("../lib/nearley/lib/nearley.js");
-var StreamWrapper = require("../lib/nearley/lib/stream.js");
+var nearley = require(require("path").join(
+  __dirname,
+  "../lib/nearley/lib/nearley.js"
+));
+var StreamWrapper = require(require("path").join(
+  __dirname,
+  "../lib/nearley/lib/stream.js"
+));
 
 var output = process.stdout;
 
